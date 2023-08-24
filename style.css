@@ -143,9 +143,8 @@ footer p {
   padding: 20px;
 }
 
-/* -------  Media Query ------- */
-@media all and (min-width: 480px) {
-  /* ------- Header ------- */
+@media all and (min-width: 768px) {
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -197,12 +196,7 @@ footer p {
     width: 250px;
     padding: 30px;
   }
-
-  /* ------- Ideas ------- */
-}
-
-@media all and (min-width: 800px) {
-  /* ------- About ------- */
+  
   #about {
     padding: 30px;
   }
